@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("../../fonts/Poppins-Bold.ttf");
+}
+.header-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+}
+.header-menu-right a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: "Poppins",sans-serif;
+}
+.header-menu-right a:not(:last-child){
+    margin-right: 48px;
+}
+.header-logo-burgermenu{
+    display: none;
+}
+
+@media(max-width:988px){
+    .header-menu-right a{
+        display: none;
+    }
+}

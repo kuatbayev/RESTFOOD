@@ -1,0 +1,14 @@
+.footer{
+    background-color: #000;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer p,.footer a{
+    color: #fff;
+    font-size: 10px;
+    font-family: "Halant",serif;
+}
